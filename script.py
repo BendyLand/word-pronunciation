@@ -19,12 +19,13 @@ def display_words(words):
 
 # display_words(words)
 
+
 def main(args):
     if len(args) > 1:
         word = args[1]
         result = ipa.convert(word)
         print(f"{word}: {result}")
 
-if __name__ == "__main__":
-    main(sys.argv)    
 
+if __name__ == "__main__":
+    main(sys.argv)
